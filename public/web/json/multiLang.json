@@ -1,0 +1,14 @@
+{
+    "tr": {
+        "welcome": "HOŞGELDİNİZ",
+        "newAdd": "Yeni Ekle",
+        "product": "Ürün",
+        "productList": "Ürün Listesi"
+    },
+    "en": {
+        "welcome": "Welcome",
+        "newAdd": "New Add",
+        "product": "Product",
+        "productList": "Product List"
+    }
+}

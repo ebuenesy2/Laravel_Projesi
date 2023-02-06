@@ -13,3 +13,7 @@
  <script src="{{asset('/web')}}/js/socket.js"></script>
  
  
+ <!--- multiLang --> 
+ <script src="{{asset('/web')}}/js/multiLang.js"></script>
+ 
+ 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Hesabınız Askıya Alındı | Yıldırımdev</title>
+        <title>Hesabınız Askıya Alındı | Bex360</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600" rel="stylesheet">

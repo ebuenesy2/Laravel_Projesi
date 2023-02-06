@@ -688,6 +688,7 @@ class App extends Controller
       try {
        
             //! Tanım
+            $multiLang = "tr";
             $userCheck = 0;
             $userToken = "";
             $userID = "";
@@ -3279,6 +3280,7 @@ class App extends Controller
   {
    
       //! Tanım
+      $multiLang = "tr";
       $userCheck = 0;
       $userToken = "";
       $name = "Name";
@@ -3298,12 +3300,13 @@ class App extends Controller
          $name=$_COOKIE["name"];
          $surname=$_COOKIE["surname"];
          $userImageUrl=$_COOKIE["userImageUrl"];
+         
       }
                   
       //? Cookie Varmı
+      if(isset($_COOKIE["multiLang"])) { $multiLang=$_COOKIE["multiLang"];  } 
+      
       if(isset($_COOKIE["companyToken"])) { $companyToken=$_COOKIE["companyToken"];  } 
-   
-       
       if(isset($_COOKIE["categoryTitle"])) { $categoryTitle=$_COOKIE["categoryTitle"];  } 
       if(isset($_COOKIE["categoryToken"])) { $categoryToken=$_COOKIE["categoryToken"];  } 
       
@@ -3402,6 +3405,7 @@ class App extends Controller
          //! Verileri Seçiyor Son
          
          //! Return
+         $DB["multiLang"] = $multiLang;
          $DB["name"] = $name;
          $DB["surname"] = $surname;
          $DB["userImageUrl"] = $userImageUrl;
@@ -3436,6 +3440,7 @@ class App extends Controller
   {
    
       //! Tanım
+      $multiLang = "tr";
       $userCheck = 0;
       $userToken = "";
       $name = "Name";
@@ -3546,6 +3551,7 @@ class App extends Controller
       $temp_id = request('temp_id');
       
       //! Tanım
+      $multiLang = "tr";
       $userCheck = 0;
       $userToken = "";
       $name = "Name";
@@ -3596,6 +3602,7 @@ class App extends Controller
   {
    
       //! Tanım
+      $multiLang = "tr";
       $userCheck = 0;
       $userToken = "";
       $name = "Name";
@@ -3839,6 +3846,7 @@ class App extends Controller
    
        
       //! Tanım
+      $multiLang = "tr";
       $userCheck = 0;
       $userToken = "";
       $name = "Name";

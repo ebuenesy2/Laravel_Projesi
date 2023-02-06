@@ -23,12 +23,12 @@
                 </ul>
             
                 
-                <h4 class="c-sidebar__title">ÜRÜN</h4>
+                <h4 class="c-sidebar__title" > {{$multiLang == "tr" ? 'ÜRÜN' : "Product"}} </h4>
                 <ul class="c-sidebar__list">
 
                     <li class="c-sidebar__item" style="margin-left: -30px;">
                         <a style="text-decoration:none" style="text-decoration:none"  class="{{ Route::current()->getName() === 'product.list'  || Request::is('product/*') ? 'c-sidebar__link is-active' : 'c-sidebar__link ' }}" href="/product/list">
-                            <i class="fa fa-shopping-bag u-mr-xsmall"></i>Ürünlerim 
+                            <i class="fa fa-shopping-bag u-mr-xsmall"></i>{{$multiLang == "tr" ? 'Ürünlerim' : "My Product"}} 
                         </a>
                     </li>
 
@@ -170,3 +170,4 @@
 
             </div><!-- // .c-sidebar -->
         </div><!-- // .o-page__sidebar -->
+

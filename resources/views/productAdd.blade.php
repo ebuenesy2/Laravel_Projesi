@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Ürün Ekleme | Yıldırımdev</title>
+        <title>Ürün Ekleme | Bex360</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta id="yildirimDev" socketUrl="{{ env('YILDIRIMDEV_Socket_URL') }}" serverId="{{ env('YILDIRIMDEV_ServerId') }}" serverToken="{{ env('YILDIRIMDEV_ServerToken') }}" version="v1.0.0">

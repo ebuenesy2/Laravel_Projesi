@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Ürün Listesi | Yıldırımdev</title>
+        <title>Ürün Listesi | Bex360</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
@@ -147,11 +147,11 @@
                         <div
                             style="display: flex; justify-content: space-between; position: relative; padding: 25px 30px; border: 1px solid #e6eaee; border-bottom: 0; border-radius: 4px 4px 0 0; background-color: #fff;color: #354052; font-size: 24px; text-align: left; ">
                             <div style="display:flex; gap:10px;" >
-                                <p style="font-size: 19px; font-weight: bold; margin-top: auto; margin-bottom: auto; ">Ürün Listesi |  </p>
+                                <p style="font-size: 19px; font-weight: bold; margin-top: auto; margin-bottom: auto; " >  <p style="font-size: 19px; font-weight: bold; margin-top: auto; margin-bottom: auto; " class="yildirimdevLangRef" key="productList" >Ürün Listesi</p>  |  </p>
                                 <p style="margin:auto;">{{$apiDBCount}}</p>
                             </div>
 
-                            <a style="text-decoration:none; display: {{$userRoleToken == 'token' ?  'none' : 'block' }}" href="/product/add"><button type="button" class="c-btn c-btn--success" >Yeni Ekle </button></a>
+                            <a style="text-decoration:none; display: {{$userRoleToken == 'token' ?  'none' : 'block' }}" href="/product/add"><button type="button" class="c-btn c-btn--success"  ><a style="text-decoration: none;color: white;" class="yildirimdevLangRef" key="newAdd">Yeni Ekle</a> </button></a>
                         </div>
                 
 
@@ -285,7 +285,7 @@
     </body>
     
     <footer>
-        
+         
         <!--- main --> 
         <script src="{{asset('/js')}}/main.min.js"></script>
         
