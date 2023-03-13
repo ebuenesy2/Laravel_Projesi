@@ -1,4 +1,4 @@
-# Bex360Tedarik
+# Laravel
 
 Laravel 8 Projesi - Mağaza Uygulaması
 
